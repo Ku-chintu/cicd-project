@@ -4,7 +4,7 @@ pipeline {
     stages {
     //   stage('clone') {
     //      steps {
-    //      // git branch: 'main', url: 'https://github.com/Ku-chintu/jenkins.git'
+    //      // git branch: 'main', url: 'https://github.com/Ku-chintu/cicd-project.git'
     //     }
     //  }
         stage('init') {
