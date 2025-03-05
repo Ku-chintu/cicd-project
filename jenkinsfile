@@ -1,7 +1,7 @@
 pipeline {
     agent any
 
-   // stages {
+    stages {
      //   stage('clone') {
        //      steps {
         //      // git branch: 'main', url: 'https://github.com/Ku-chintu/jenkins.git'
