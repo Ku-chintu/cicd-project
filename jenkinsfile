@@ -1,12 +1,12 @@
 pipeline {
     agent any
 
-    stages {
-        stage('clone') {
-             steps {
-               git branch: 'main', url: 'https://github.com/Ku-chintu/jenkins.git'
-             }
-        }
+   // stages {
+     //   stage('clone') {
+       //      steps {
+        //      // git branch: 'main', url: 'https://github.com/Ku-chintu/jenkins.git'
+        //     }
+      //  }
         stage('init') {
             steps {
                 sh 'terraform init'
