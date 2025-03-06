@@ -6,7 +6,7 @@ resource "aws_instance" "name" {
     instance_type = "t2.micro"
     key_name = "Mumbai-key"
  tags = {
-        Name  = "MyEC2Instance"
+        Name  = "MyEC2Instance-1"
         }
 
   }
